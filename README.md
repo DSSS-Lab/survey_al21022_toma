@@ -27,6 +27,7 @@
 
 ### 準同型暗号
 - [A Survey on Homomorphic Encryption Schemes: Theory and Implementation](https://arxiv.org/pdf/1704.03578.pdf)
+- [Survey on Fully Homomorphic Encryption, Theory, and Applications](https://eprint.iacr.org/2022/1602.pdf)
 
 ## お問合せ
 何か気に食わないことがあれば[Issues](https://github.com/DSSS-Lab/survey_al21022_toma/issues)にどうぞ  
