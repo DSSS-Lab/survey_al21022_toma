@@ -21,6 +21,9 @@
 
 ### 秘密計算
 - [Concretely efficient secure multi-party computation protocols: survey and more](https://sands.edpsciences.org/articles/sands/full_html/2022/01/sands20210001/sands20210001.html)
+- [MPC wiki](https://wiki.mpcalliance.org/)
+- [Universally Composable Security: A New Paradigm for Cryptographic Protocols](https://eprint.iacr.org/2000/067.pdf)
+- [A Pragmatic Introduction to Secure Multi-Party Computation](https://www.cs.virginia.edu/~evans/pragmaticmpc/pragmaticmpc.pdf)
 
 ### 検証可能計算
 - [Verifying computations without reexecuting them](https://dl.acm.org/doi/pdf/10.1145/2641562)
@@ -28,6 +31,7 @@
 ### 準同型暗号
 - [A Survey on Homomorphic Encryption Schemes: Theory and Implementation](https://arxiv.org/pdf/1704.03578.pdf)
 - [Survey on Fully Homomorphic Encryption, Theory, and Applications](https://eprint.iacr.org/2022/1602.pdf)
+- [TFHE Deep Dive](https://www.zama.ai/post/tfhe-deep-dive-part-1)
 
 ## お問合せ
 何か気に食わないことがあれば[Issues](https://github.com/DSSS-Lab/survey_al21022_toma/issues)にどうぞ  
