@@ -29,5 +29,5 @@
 - [A Survey on Homomorphic Encryption Schemes: Theory and Implementation](https://arxiv.org/pdf/1704.03578.pdf)
 
 ## お問合せ
-何か気に食わないことがあれば[Issues]()にどうぞ  
+何か気に食わないことがあれば[Issues](https://github.com/DSSS-Lab/survey_al21022_toma/issues)にどうぞ  
 書いたことはそのまま公開されるのでそのつもりでお願いします  
