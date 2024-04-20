@@ -27,7 +27,7 @@ jobs:
           output: build/index.html
           dark-mode: false
           markdown-style-theme: dark
-          github-corners: https://github.com/whtsht/
+          github-corners: https://github.com/DSSS-Lab/survey_al21022_toma
 
       - name: replace .md to .html
         run: sed -i 's/\.md/\.html/g' build/index.html
