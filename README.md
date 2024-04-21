@@ -4,8 +4,8 @@
 
 研究テーマ  
 以下のうちのどれか、またはその組み合わせ
-- 検証可能計算 (Verifiable computing)
 - 秘密計算 (Secure multi-party computation)
+- 検証可能計算 (Verifiable computing)
 - 準同型暗号 (Homomorphic Encryption)
 
 ## 調査レポート
