@@ -211,6 +211,8 @@ $M$に対して$E$が小さいため、正確に復号できる
 --- 
 
 [tfhe]: Ilaria Chillotti and Nicolas Gama and Mariya Georgieva and Malika Izabach`ene. TFHE: Fast Fully Homomorphic Encryption Over the Torus.Journal of Cryptology. 2019. https://tfhe.github.io/tfhe/
+
 [ckks]: J. H. Cheon, A. Kim, M. Kim, and Y. Song. Homomorphic encryption for arithmetic of
 approximate numbers. In ASIACRYPT’17. 2017.
+
 [dghv]: Marten Van Dijk, Craig Gentry, Shai Halevi, and Vinod Vaikuntanathan. Fully homomorphic encryp-tion over the integers. InAdvances in cryptology–EUROCRYPT. 2010.
