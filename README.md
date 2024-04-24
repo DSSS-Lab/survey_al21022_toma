@@ -12,7 +12,7 @@
 
 研究の進歩報告会で使うやつ
 
-1. 興味のある研究分野 [[jp](./docs/jp/slide1.md)] | [en](./docs/en/slide1.md)
+1. 興味のある研究分野 [[jp](./docs/jp/slide1.md)] | [[en](./docs/en/slide1.md)]
 2. 準同型暗号1 [[jp](./docs/jp/slide2.md)] | [en]
 
 ## リンク集
