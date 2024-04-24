@@ -159,25 +159,28 @@ TODO
 $R^{k}$: k次多項式
 $p, q \ (p \leq q)$: 2の累乗、 $\Delta = q / p$
 $\boldsymbol{A} = (A_0, ... , A_{k-1}) \in R^{k}$ : ノンス (使い捨ての値)
-$\bm{S} = (S_0, ... , S_{k-1}) \in R^{k}$ : 秘密鍵
+$\boldsymbol{S} = (S_0, ... , S_{k-1}) \in R^{k}$ : 秘密鍵
 $M$: 平文、$E$: エラー
 
 $$
-    B = \langle\bm{A},\bm{S}\rangle + \Delta M + E
+    B = \langle\boldsymbol{A},\boldsymbol{S}\rangle + \Delta M + E
 $$
 
 $$
-    Enc(M, S) = (\bm{A}, B)
+    Enc(M, S) = (\boldsymbol{A}, B)
 $$
 ---
 
 # 復号化
 $$
-    Dec(\bm{A}, \bm{S}, B) = \lfloor (\Delta M + E) / \Delta \rceil
+\begin{align*}
+    Dec(\boldsymbol{A}, \boldsymbol{S}, B) &=M\\
+    &= \lfloor (\Delta M + E) / \Delta \rceil
+\end{align*}
 $$
 
 $$
-    \Delta M + E = B - \langle\bm{A},\bm{S}\rangle
+    \Delta M + E = B - \langle\boldsymbol{A},\boldsymbol{S}\rangle
 $$
 
 $M$に対して$E$が小さいため、正確に復号できる  
