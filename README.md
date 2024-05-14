@@ -2,11 +2,7 @@
 
 研究に使えるリンクや独自の調査レポートなどを置いていく
 
-研究テーマ  
-以下のうちのどれか、またはその組み合わせ
-- 秘密計算 (Secure multi-party computation)
-- 検証可能計算 (Verifiable computing)
-- 準同型暗号 (Homomorphic Encryption)
+研究テーマ：秘密計算 (Secure multi-party computation)、検証可能計算 (Verifiable computing)
 
 ## 実践調査レポート
 
@@ -14,14 +10,14 @@
 その技術がどのくらい実用的なのか、何に使えるのか議論する  
 込み入った理論の調査は理論調査レポートで行う  
 
-1. 興味のある研究分野 [[jp](./docs/jp/slide1.md)] | [[en](./docs/en/slide1.md)]
-3. 完全準同型暗号のパフォーマンス調査
+- 調査レポート1 [[jp](./docs/jp/slide1.md)] | [[en](./docs/en/slide1.md)]
+- 調査レポート2 [[jp](./docs/jp/slide3.md)]
 
 ## 理論調査レポート
 その技術の数学的背景や具体的なアルゴリズムを調べる  
 どちらかというと個人のメモ
 
-1. 準同型暗号1 [[jp](./docs/jp/slide2.md)] | [en]
+- 準同型暗号1 [[jp](./docs/jp/slide2.md)] | [en]
 
 ## リンク集
 
