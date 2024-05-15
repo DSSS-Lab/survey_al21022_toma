@@ -98,4 +98,4 @@ style: |
 
 [RCB] Rosario Gennaro and Craig Gentry and Bryan Parno. Non-Interactive Verifiable Computing: Outsourcing Computation to Untrusted Workers. CRYPTO 2010. https://link.springer.com/content/pdf/10.1007/978-3-642-14623-7_25.pdf
 
-[HCP] Henry Carter, Charles Lever, and Patrick Traynor. Whitewash: outsourcing garbled circuit generation for mobile devices. In Proceedings of the 30th Annual Computer Security Applications Conference (ACSAC '14). Association for Computing Machinery, New York, NY, USA, 266–275. https://doi.org/10.1145/2664243.2664255
+[HCP] Henry Carter, Charles Lever, and Patrick Traynor. Whitewash: outsourcing garbled circuit generation for mobile devices. In Proceedings of the 30th Annual Computer Security Applications Conference (ACSAC '14). Association for Computing Machinery, New York, NY, USA, 266–275. 2014. https://doi.org/10.1145/2664243.2664255
