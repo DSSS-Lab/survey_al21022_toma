@@ -79,9 +79,10 @@ style: |
 - 初期コストをどうにかするという視点はあまりない気がする
 - Non-Interactive Verifiable Computing: Outsourcing Computation to Untrusted Workers $^{[RCB]}$
     - Garbled Circuitの作成は、信頼できるコンピュータでやる程度しか書いてない
-- その他の文献でも初期コストに関することは見掛けたことがない
-
-### 新規性があるかもしれない
+- Whitewash: Outsourcing Garbled Circuit Generation for Mobile $^{[HCP]}$
+    - 調査中……
+- その他の文献でも初期コストに関するものは見掛けたことがない
+    → 開拓の余地がありそう
 
 ---
 
@@ -91,13 +92,10 @@ style: |
 
 ---
 
-## 次回までにやること
-初期コストをどうにかする先行研究があるか探す
-
----
-
 # 参考
 
 [GYP] Goldwasser, Shafi; Kalai, Yael Tauman; Popa, Raluca Ada; Vaikuntanathan, Vinod; Zeldovich, Nickolai. How to Run Turing Machines on Encrypted Data. CRYPTO 2013. https://www.microsoft.com/en-us/research/wp-content/uploads/2017/01/2013-tm-encrypted.pdf
 
 [RCB] Rosario Gennaro and Craig Gentry and Bryan Parno. Non-Interactive Verifiable Computing: Outsourcing Computation to Untrusted Workers. CRYPTO 2010. https://link.springer.com/content/pdf/10.1007/978-3-642-14623-7_25.pdf
+
+[HCP] Henry Carter, Charles Lever, and Patrick Traynor. Whitewash: outsourcing garbled circuit generation for mobile devices. In Proceedings of the 30th Annual Computer Security Applications Conference (ACSAC '14). Association for Computing Machinery, New York, NY, USA, 266–275. https://doi.org/10.1145/2664243.2664255
