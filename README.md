@@ -11,13 +11,9 @@
 込み入った理論の調査は理論調査レポートで行う  
 
 - 調査レポート1 [[jp](./docs/jp/slide1.md)] | [[en](./docs/en/slide1.md)]
-- 調査レポート2 [[jp](./docs/jp/slide3.md)]
-
-## 理論調査レポート
-その技術の数学的背景や具体的なアルゴリズムを調べる  
-どちらかというと個人のメモ
-
-- 準同型暗号1 [[jp](./docs/jp/slide2.md)] | [en]
+- 調査レポート2 [[jp](./docs/jp/slide2.md)]
+- 調査レポート3 [[jp](./docs/jp/slide3.md)]
+- 調査レポート4 [[jp](./docs/jp/slide4.md)]
 
 ## リンク集
 

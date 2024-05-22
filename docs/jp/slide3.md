@@ -9,7 +9,7 @@ style: |
   }
 ---
 
-# 調査レポート2
+# Garbled Circuitの初期コスト
 ---
 
 # How to Run Turing Machines on Encrypted Data

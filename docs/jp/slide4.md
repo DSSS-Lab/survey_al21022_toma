@@ -9,11 +9,11 @@ style: |
   }
 ---
 
-# 再利用可能なGarbled Circuit（以降GCと表記）
+# 再利用可能なGarbled Circuit
 
 ---
 
-## GCの生成 （簡易版）
+## Garbled Circuit（以降GCと表記）の生成 （簡易版）
 
 
 1. 生成者は計算したいBoolean回路（以降回路と表記）を準備する
