@@ -75,16 +75,23 @@ $C_{\lambda}^{{0, 1, 2, 3}}$：出力ラベル
 ---
 
 2. 計算者は渡された入力を使い、GCの1行を復号する
+- 例) 復号することで、出力ラベルである$C_{\lambda}^{2}$が得られる
 
 $$
     Dec(B_{\lambda}^{0}, Dec(A_{\lambda}^{1}, Enc(A_{\lambda}^{1}, Enc(B_{\lambda}^{0}, C_{\lambda}^{2}))) \\
         = C_{\lambda}^{2}
 $$
 
+| $Enc(A_{\lambda}^{0}, Enc(B_{\lambda}^{0}, C_{\lambda}^{0}))$ |
+|---|
+| $Enc(A_{\lambda}^{0}, Enc(B_{\lambda}^{1}, C_{\lambda}^{1}))$ |
+| <span style="color: blue;">$Enc(A_{\lambda}^{1}, Enc(B_{\lambda}^{0}, C_{\lambda}^{2}))$</span> |
+| $Enc(A_{\lambda}^{1}, Enc(B_{\lambda}^{1}, C_{\lambda}^{3}))$ |
+
 ---
 
 3. 計算者は復号できた出力ラベルを生成者に返す
-- 例）$C_{\lambda}^{2}$が返したとする
+- 例）$C_{\lambda}^{2}$を返す
 4. 生成者は元の回路とGCを比較して出力を取得する
 - 例）$C_{\lambda}^{2}$は0と対応しているので答えは0であることがわかる
 
@@ -94,7 +101,7 @@ $$
 | 0 | 0 | 0 |
 |---|---|---|
 | 0 | 1 | 0 |
-| 1 | 0 | 0 |
+| <span style="color: blue;">1</span> | <span style="color: blue;">0</span> | <span style="color: blue;">0</span> |
 | 1 | 1 | 1 |
 
 </div>
@@ -103,7 +110,7 @@ $$
 | $Enc(A_{\lambda}^{0}, Enc(B_{\lambda}^{0}, C_{\lambda}^{0}))$ |
 |---|
 | $Enc(A_{\lambda}^{0}, Enc(B_{\lambda}^{1}, C_{\lambda}^{1}))$ |
-| $Enc(A_{\lambda}^{1}, Enc(B_{\lambda}^{0}, C_{\lambda}^{2}))$ |
+| <span style="color: blue;">$Enc(A_{\lambda}^{1}, Enc(B_{\lambda}^{0}, C_{\lambda}^{2}))$</span> |
 | $Enc(A_{\lambda}^{1}, Enc(B_{\lambda}^{1}, C_{\lambda}^{3}))$ |
 
 
@@ -186,3 +193,4 @@ $$
 # 参考文献
 
 https://wiki.mpcalliance.org/garbled_circuit.html
+
