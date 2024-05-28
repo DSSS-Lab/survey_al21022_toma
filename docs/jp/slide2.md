@@ -3,7 +3,7 @@ marp: true
 class: invert
 ---
 
-# 準同型暗号1
+# 準同型暗号
 
 ---
 

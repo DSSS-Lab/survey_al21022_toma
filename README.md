@@ -10,11 +10,11 @@
 その技術がどのくらい実用的なのか、何に使えるのか議論する  
 込み入った理論の調査は理論調査レポートで行う  
 
-- 調査レポート1 [[jp](./docs/jp/slide1.md)] | [[en](./docs/en/slide1.md)]
-- 調査レポート2 [[jp](./docs/jp/slide2.md)]
-- 調査レポート3 [[jp](./docs/jp/slide3.md)]
-- 調査レポート4 [[jp](./docs/jp/slide4.md)]
-- 調査レポート5 [[jp](./docs/jp/slide5.md)]
+- 興味のある研究分野 [[jp](./docs/jp/slide1.md)] | [[en](./docs/en/slide1.md)]
+- 準同型暗号 [[jp](./docs/jp/slide2.md)]
+- Garbled Circuit 1 [[jp](./docs/jp/slide3.md)]
+- Garbled Circuit 2 [[jp](./docs/jp/slide4.md)]
+- Garbled Circuit 3 [[jp](./docs/jp/slide5.md)]
 
 ## リンク集
 
