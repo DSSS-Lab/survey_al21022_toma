@@ -174,7 +174,7 @@ $$
 
 5 [計算者] 計算結果を検証者に返す
 $$
-    Encrypt_{FHE}(PK, C_{\lambda}^{2}))
+    Encrypt_{FHE}(PK, C_{\lambda}^{2})
 $$
 
 6 [検証者] 計算結果の検証を行う
@@ -217,7 +217,7 @@ $Decrypt_{FHE}(SK, M(w_0, \gamma_2)) = 1$であり、$Decrypt_{FHE}(SK, M(w_0, \
 [計算者] 手順4で以下を計算して返す
 
 $$
-    Evaluate(w_*, \gamma_*) = \sum_{k=1}^{3} M(w_0, \gamma_k) \times M(w_1, \gamma_k) \times \text{Dec}(w_0, \text{Dec}(w_1, \gamma_k))
+    Evaluate(w_*, \gamma_*) = \sum_{k=0}^{3} M(w_0, \gamma_k) \times M(w_1, \gamma_k) \times \text{Dec}(w_0, \text{Dec}(w_1, \gamma_k))
 $$
 
 
@@ -225,7 +225,8 @@ $$
 
 $$
 \begin{align*}
-    &Decrypt_{FHE}(SK, M(w_0, \gamma_2)) \times Decrypt_{FHE}(SK, M(w_1, \gamma_2)) \times Dec(w_0, Dec(w_1, \gamma_2)) \\
+    & Decrypt_{FHE}(Evaluate(w_*, \gamma_*)) \\
+    & = Decrypt_{FHE}(SK, M(w_0, \gamma_2)) \times Decrypt_{FHE}(SK, M(w_1, \gamma_2)) \times Dec(w_0, Dec(w_1, \gamma_2)) \\
     & = 1 \times 1 \times Decrypt_{FHE}(SK, Encrypt_{FHE}(PK, C_{\lambda}^2)) \\
     & = 1 \times 1 \times C_{\lambda}^{2} \\
     & = C_{\lambda}^{2} \\

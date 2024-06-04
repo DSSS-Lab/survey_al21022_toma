@@ -134,7 +134,6 @@ TODO
 ## A fully homomorphic encryption scheme (2009) $^{[gs]}$
 
 - Craig Gentry氏の博士論文
-- FHEの研究する上で重要な論文
 - FHEを実現するBootstrappingという概念を導入した
 
 ---
@@ -193,12 +192,6 @@ $M$に対して$E$が小さいため、正確に復号できる
 ### 加算とスカラー倍が定義できる
 ### LWEで加法やスカラー倍を繰り返し計算するとノイズが蓄積する
 ### このノイズをリセットする手段がBootstrapping
-
----
-
-# 次回
-
-### Bootstrapping操作を導入して任意の回数加法と乗法を行えるようにしたTFHEを紹介する
 
 ---
 
