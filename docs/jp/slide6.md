@@ -158,5 +158,11 @@ LWE（演算回数が限られている）で$M$、$Dec$を構築することが
 
 ## 違う方法を模索
 
-- Probabilistic Proof Protocols
-- 秘密分散
+- 異なる技術を使う
+    - Probabilistic Proof Protocols
+    - 秘密分散
+
+- 計算の表現を限定する
+    - 行列計算
+    - 限定された計算モデルで利用例を考える
+        - MapReduce
