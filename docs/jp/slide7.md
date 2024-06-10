@@ -182,3 +182,14 @@ $C$が正しく計算されていないならば$\mathcal{V}$は$1 - (1 - n)/p$�
 ## 修士の研究でやること
 - P2PでのMulti-prover interactive proofsシステムの安全性評価 
 - P2Pのネットワーク上で動かすシステムを作る
+
+---
+
+## 参考文献
+
+- https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html
+    - IPからzk-SNARKsまでがまとまった大作
+- http://stco.in.coocan.jp/math/takosiki/itti.pdf
+    - Freivalds’ Algorithmの健全性評価は多項式の一致の定理を使っている
+- https://risencrypto.github.io/Sumcheck/
+    - Sum-Check Protocolと多重線形マップ
