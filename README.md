@@ -15,6 +15,7 @@
 - Garbled Circuit 1 [[jp](./docs/jp/slide3.md)]
 - Garbled Circuit 2 [[jp](./docs/jp/slide4.md)]
 - Garbled Circuit 3 [[jp](./docs/jp/slide5.md)]
+- 検証可能計算 1 [[jp](./docs/jp/slide7.md)]
 
 ## リンク集
 
