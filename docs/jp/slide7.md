@@ -183,6 +183,7 @@ FHEと比べたら断然良い結果だが……
 ---
 
 ## 学部の研究でやること
+- [ProofsArgsAndZK](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)進める
 - Multi-prover interactive proofsのシステムを作って動かすのが目標
 
 ## 修士の研究でやること
