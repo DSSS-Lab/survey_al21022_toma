@@ -47,8 +47,6 @@ $n \times n$の行列$A$、$B$（要素は有限体$\mathbb{F}_p$）の積$C$の
 
 ---
 
-## ランダムネスを利用した検証の例：Freivalds’ Algorithm
-
 ### 完全性
 $C$が正しく計算されているならば$\mathcal{V}$は絶対にそれの証明$y$を受入れる
 
@@ -58,6 +56,9 @@ $C$が正しく計算されていないならば$\mathcal{V}$は$1 - (1 - n)/p$�
 ### 効率
 愚直に行列を計算するコスト：$O(n^3)$
 計算結果を検証するコスト：$O(n^2)$
+
+実装
+https://github.com/whtsht/sandbox-of-proof/blob/main/mat-mult/src/freivald_algorithm.rs
 
 ---
 
