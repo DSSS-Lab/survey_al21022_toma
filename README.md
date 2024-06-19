@@ -16,3 +16,4 @@
 - Garbled Circuit 2 [[jp](./docs/jp/slide4.md)]
 - Garbled Circuit 3 [[jp](./docs/jp/slide5.md)]
 - 検証可能計算 1 [[jp](./docs/jp/slide7.md)]
+- 検証可能計算 2・P2Pネットワーク [[jp](./docs/jp/slide8.md)]
