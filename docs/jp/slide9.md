@@ -127,6 +127,8 @@ $\mathcal{P}$に計算委託したときのレイテンシ < $\mathcal{V}$の計
 
 ## Multi-prover interactive proofs system (MIPs)
 
+論文名：Verifiable computation using multiple provers
+
 - もう1人の証明者が検証者の計算を一部肩代りするイメージ
 - 証明時間そんなに変らないので今回のケースにあまり合っていない
 
