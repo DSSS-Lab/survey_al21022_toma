@@ -130,11 +130,21 @@ $\mathcal{P}$に計算委託したときのレイテンシ < $\mathcal{V}$の計
 ## Multi-prover interactive proofs system (MIPs)
 
 論文名：Verifiable computation using multiple provers
+著者：Andrew Justin Blumberg and Justin Thaler and Victor Vu and Michael Walfish
+発表場所：IACR Cryptol
+発表年：2014年
+
+<div class="columns">
+<div>
+<img src="../../img/mips.png" width="90%"/>
+</div>
+<div>
 
 - もう1人の証明者が検証者の計算を一部肩代りするイメージ
 - 証明時間そんなに変らないので今回のケースにあまり合っていない
 
-![](../../img/mips.png)
+</div>
+</div>
 
 ---
 
